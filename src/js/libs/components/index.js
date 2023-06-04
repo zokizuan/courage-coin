@@ -4,6 +4,7 @@ import { initCountdown } from './countdown/countdown';
 import { initRoadmap } from './roadmap/roadmap';
 import { initLike } from './like/like';
 import { initBackToTop } from './backtotop/backtotop';
+import { initDeviceWidthManager } from './custom/custom';
 
 window.initNavbar = initNavbar;
 window.initTabs = initTabs;
@@ -11,3 +12,4 @@ window.initCountdown = initCountdown;
 window.initRoadmap = initRoadmap;
 window.initLike = initLike;
 window.initBackToTop = initBackToTop;
+window.initDeviceWidthManager = initDeviceWidthManager

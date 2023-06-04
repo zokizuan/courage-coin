@@ -131,7 +131,7 @@ TABLE OF CONTENTS
         }
     }
 
-    //Lanfing page hero
+    //Landing page hero
     .landing-caption {
         .divider {
             margin: 0 auto;
@@ -192,6 +192,9 @@ TABLE OF CONTENTS
         transform: translateX(210px);
         top: -86px;
     }
+    .centered-buttons {
+        justify-content: center;
+      }
 }
 
 /* ==========================================================================

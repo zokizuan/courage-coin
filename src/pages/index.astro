@@ -22,7 +22,7 @@ const title = "Home";
       <Starfall />
 
       <!-- Hero Image and Title -->
-      <div class="hero-body" >
+      <div class="hero-body" x-data="initDeviceWidthManager('add-home-background')" x-init="init()" x-bind:class="classList">
         <div class="container">
           <div class="columns is-vcentered">
             <!-- Landing page Title -->
@@ -37,7 +37,7 @@ const title = "Home";
                 Unleash Nostalgia with <span style="color: magenta;">$COWARD</span>: A Community-Driven Crypto Inspired by Courage the Cowardly Dog
               </h2>
               <!-- CTA -->
-              <p class="buttons">
+              <p class="buttons centered-buttons">
                 <a
                   href="#start"
                   class="button k-button k-primary raised has-gradient is-fat is-bold"
@@ -55,7 +55,7 @@ const title = "Home";
               </p>
             </div>
             <!-- Hero image -->
-             <div class="column is-7 is-mobile">
+             <div class="column is-7 is-hidden-tablet">
               <figure class="image ">
                 <img src="/img/illustrations/courage_purple.jpg" alt="" />
               </figure>
